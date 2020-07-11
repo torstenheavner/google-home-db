@@ -28,7 +28,9 @@ class General(commands.Cog):
 			if content.startswith("are you alive?"):
 				await message.channel.send(embed=eou.makeEmbed(title="Pong!", description="Google Home is online."))
 
-			# elif content.startswith("")
+			# add commands here:
+			# elif content.startswith("command name"):
+			#	what to happen when the command is done
 
 
 
